@@ -1,5 +1,5 @@
 <template>
-  <header class="text-5xl font-bold text-center text-white bg-blue-700 py-9 dark:bg-gray-800">
+  <header class="text-4xl md:text-5xl font-bold text-center text-white bg-blue-700 py-9 dark:bg-gray-800">
     <div id="title" class="flex justify-center">
       <img src="../assets/logo.png" alt="logo" class="w-12 h-12" />
       <h1>Covid-19 Tracker</h1>
