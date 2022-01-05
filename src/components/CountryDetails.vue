@@ -1,5 +1,5 @@
 <template>
-  <div id="details" class="py-3 text-center">
+  <div id="details" class="py-3 text-center dark:text-white">
     <h4 class="text-2xl font-bold">{{ text }}</h4>
     <p class="pt-2 text-base">{{ timestamps }}</p>
   </div>

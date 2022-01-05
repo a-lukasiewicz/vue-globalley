@@ -1,10 +1,15 @@
 <template>
-  <Header></Header>
-  <!-- <CountryDetails></CountryDetails> -->
-  <div class="container">
-    <router-view />
+  <div :class="isDark ? 'dark' : ''">
+    <div id="mainContainer" class="dark:bg-gray-700 h-screen">
+      <Header />
+      <div class="container">
+        <router-view />
+      </div>
+      <div class="flex justify-center">
+        <button @click="isDark = !isDark" class="absolute bottom-5 px-12 py-3 ml-3 rounded-sm border border-gray-200 text-gray-900 shadow-sm hover:bg-blue-300 ease-in-out transform hover:scale-110 transition-all hover:text-white hover:rounded-full dark:bg-green-500 dark:border-green-500 dark:text-white">Change theme colors</button>
+      </div>
+    </div>
   </div>
-  <!-- <CasesElement></CasesElement> -->
 </template>
 
 <script>
@@ -17,6 +22,11 @@ export default {
     Header,
     CountryDetails,
     CasesElement,
+  },
+  data() {
+    return {
+      isDark: false,
+    };
   },
 };
 </script>

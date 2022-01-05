@@ -6,7 +6,7 @@
   </main>
 
   <main class="flex flex-col justify-center w-screen text-center align-center" v-else>
-    <div class="mt-10 mb-6 text-3xl text-gray-500">Fetching data</div>
+    <div class="mt-10 mb-6 text-3xl text-gray-500 dark:text-white">Fetching data</div>
     <img :src="loadingImage" class="w-24 m-auto" alt="loadingImage" />
   </main>
 </template>
