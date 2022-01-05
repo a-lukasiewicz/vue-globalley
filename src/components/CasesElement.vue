@@ -1,12 +1,12 @@
 <template>
   <div class="flex justify-center">
-    <div id="block" class="w-1/3 py-10 m-3 text-base text-center bg-blue-200 rounded shadow-md">
+    <div id="block" class="w-1/3 py-10 m-3 text-base text-center bg-blue-200 rounded shadow-md transform hover:scale-105 ease-in-out transition-all">
       <h4 class="text-2xl font-bold text-blue-800">Cases</h4>
       <p><span class="font-bold">New:</span> {{ divideNumber(stats.NewConfirmed) }}</p>
       <p><span class="font-bold">Total:</span> {{ divideNumber(stats.TotalConfirmed) }}</p>
     </div>
 
-    <div id="block" class="w-1/3 py-10 m-3 text-base text-center bg-blue-300 rounded shadow-md">
+    <div id="block" class="w-1/3 py-10 m-3 text-base text-center bg-blue-300 rounded shadow-md transform hover:scale-105 ease-in-out transition-all">
       <h4 class="text-2xl font-bold text-blue-800">Deaths</h4>
       <p><span class="font-bold">New:</span> {{ divideNumber(stats.NewDeaths) }}</p>
       <p><span class="font-bold">Total:</span> {{ divideNumber(stats.TotalDeaths) }}</p>
@@ -20,7 +20,7 @@ export default {
   props: ["stats"],
   methods: {
     divideNumber(number) {
-      return number.toLocaleString();
+      return number.toLocaleString("en-GB");
     },
   },
 };
