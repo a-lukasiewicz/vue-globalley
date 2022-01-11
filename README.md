@@ -15,5 +15,7 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Built With
+* [Vue.js](https://vuejs.org/)
+* [TailwindCSS](https://tailwindcss.com/)
+* [Covid19api](https://covid19api.com/)
