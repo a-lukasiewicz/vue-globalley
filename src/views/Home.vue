@@ -1,5 +1,7 @@
 <template>
-  <main v-if="!loading" class="w-screen">
+  <div>
+    <Hero />
+    <main v-if="!loading" class="w-screen">
     <CountryDetails :text="title" :dataDate="dataDate" />
     <CasesElement :stats="stats" />
     <SearchCountry :countries="countries" @get-country="getCountryData" @clear="clearCountryData" />
@@ -9,9 +11,11 @@
     <div class="mt-10 mb-6 text-3xl text-gray-500 dark:text-white">Fetching data</div>
     <img :src="loadingImage" class="w-24 m-auto" alt="loadingImage" />
   </main>
+  </div>
 </template>
 
 <script>
+import Hero from "../components/Hero.vue";
 import CasesElement from "../components/CasesElement.vue";
 import CountryDetails from "../components/CountryDetails.vue";
 import SearchCountry from "../components/SearchCountry.vue";
@@ -19,6 +23,7 @@ import SearchCountry from "../components/SearchCountry.vue";
 export default {
   name: "Home",
   components: {
+    Hero,
     CountryDetails,
     CasesElement,
     SearchCountry,

@@ -1,14 +1,49 @@
 <template>
-  <header class="text-4xl md:text-5xl font-bold text-center text-white bg-blue-700 py-9 dark:bg-gray-800">
-    <div id="title" class="flex justify-center">
-      <img src="../assets/logo.png" alt="logo" class="w-12 h-12" />
-      <h1>Covid-19 Tracker</h1>
+  <nav class="w-full border-b">
+    <div class="container flex items-center justify-between px-6 py-3 mx-auto md:py-0">
+      <div aria-label="Home. logo" role="img">
+        <router-link to="/">
+          <h1 class="text-4xl"><span class="text-indigo-700">GLOABAL</span>LEY</h1>
+        </router-link>
+      </div>
+      <div>
+        <button onclick="toggleMenu(true)" class="text-gray-500 sm:block md:hidden hover:text-gray-700 focus:text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500">
+          <svg aria-haspopup="true" aria-label="open Main Menu" xmlns="http://www.w3.org/2000/svg" class="md:hidden icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round">
+            <path stroke="none" d="M0 0h24v24H0z"></path>
+            <line x1="4" y1="8" x2="20" y2="8"></line>
+            <line x1="4" y1="16" x2="20" y2="16"></line>
+          </svg>
+        </button>
+        <div id="menu" class="hidden md:block lg:block">
+          <button onclick="toggleMenu(false)" class="fixed top-0 z-30 block mt-6 text-gray-500 md:hidden lg:hidden hover:text-gray-700 focus:text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500">
+            <svg aria-label="close main menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" />
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+          <ul class="fixed top-0 bottom-0 left-0 right-0 z-20 flex flex-col items-center justify-center py-6 text-3xl bg-white md:text-base md:flex md:flex-row md:relative md:bg-transparent">
+            <li class="pt-10 text-base text-gray-700 cursor-pointer hover:text-gray-900 lg:text-lg md:pt-0">
+              <router-link to="/details">Details</router-link>
+            </li>
+            <li class="pt-10 text-base text-gray-700 cursor-pointer hover:text-gray-900 lg:text-lg md:pt-0 md:ml-5 lg:ml-10">
+              <a href="javascript: void(0)">Explore</a>
+            </li>
+            <li class="pt-10 text-base text-gray-700 cursor-pointer hover:text-gray-900 lg:text-lg md:pt-0 md:ml-5 lg:ml-10">
+              <a href="javascript: void(0)">Random</a>
+            </li>
+            <li class="pt-10 text-base text-gray-700 cursor-pointer hover:text-gray-900 lg:text-lg md:pt-0 md:ml-5 lg:ml-10">
+              <a href="javascript: void(0)">About Us</a>
+            </li>
+            <li class="pt-10 text-base text-gray-700 cursor-pointer hover:text-gray-900 lg:text-lg md:pt-0 md:ml-5 lg:ml-10">
+              <a href="javascript: void(0)">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="hidden px-4 py-1 text-sm text-indigo-700 transition duration-150 ease-in-out bg-transparent border border-indigo-700 rounded focus:outline-none lg:text-lg lg:font-bold focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 md:block hover:bg-gray-200 sm:px-8 sm:py-3">Sign In</button>
     </div>
-    <div class="flex justify-center mt-3 text-base">
-      <p>API by</p>
-      <a href="#" class="ml-2 text-blue-300 opacity-80 dark:text-green-400">covid19api.com</a>
-    </div>
-  </header>
+  </nav>
 </template>
 
 <script>
