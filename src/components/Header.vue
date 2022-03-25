@@ -27,16 +27,16 @@
               <router-link to="/details">Details</router-link>
             </li>
             <li class="pt-10 text-base text-gray-700 cursor-pointer hover:text-gray-900 lg:text-lg md:pt-0 md:ml-5 lg:ml-10">
-              <a href="javascript: void(0)">Explore</a>
+              <router-link to="/explore">Explore</router-link>
             </li>
             <li class="pt-10 text-base text-gray-700 cursor-pointer hover:text-gray-900 lg:text-lg md:pt-0 md:ml-5 lg:ml-10">
-              <a href="javascript: void(0)">Random</a>
+              <router-link to="/random">Random</router-link>
             </li>
             <li class="pt-10 text-base text-gray-700 cursor-pointer hover:text-gray-900 lg:text-lg md:pt-0 md:ml-5 lg:ml-10">
-              <a href="javascript: void(0)">About Us</a>
+              <router-link to="/aboutUs">About Us</router-link>
             </li>
             <li class="pt-10 text-base text-gray-700 cursor-pointer hover:text-gray-900 lg:text-lg md:pt-0 md:ml-5 lg:ml-10">
-              <a href="javascript: void(0)">Contact</a>
+              <router-link to="/contact">Contact</router-link>
             </li>
           </ul>
         </div>
