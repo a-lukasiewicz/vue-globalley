@@ -1,5 +1,5 @@
 <template>
-  <div class="w-3/4 p-3 mb-3 shadow-xl card lg:card-side bg-base-100">
+  <div class="w-3/4 p-3 mb-3 shadow-xl card lg:card-side bg-base-100 animate__animated animate__fadeInLeft">
   <figure><img src="https://api.lorem.space/image/album?w=400&h=400" alt="Album"></figure>
   <div class="card-body">
     <h2 class="card-title">News Title</h2>

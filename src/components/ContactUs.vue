@@ -1,8 +1,8 @@
 <template lang="">
-<div class="w-full">
+<div class="w-full animate__animated animate__bounceInDown">
     <div class="max-w-5xl mx-auto mb-3 sm:px-6">
         <div class="w-full px-8 rounded">
-            <h2 class="text-3xl font-bold text-center ">Contact Us</h2>
+            <h2 class="text-3xl font-bold text-center">Contact Us</h2>
             <form class="px-6">
                     <div class="flex w-full mt-6">
                         <input type="text" placeholder="Name" class="flex items-center justify-center w-full p-3 mr-3 text-gray-900 bg-gray-100 border border-gray-200 rounded focus:outline-none focus:border-blue-700" />

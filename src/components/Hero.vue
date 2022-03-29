@@ -2,7 +2,7 @@
   <div id="hero-background">
     <div class="container flex flex-col items-center py-8 mx-auto sm:py-24">
       <div class="flex-col items-center justify-center w-11/12 mb-5 sm:w-2/3 lg:flex sm:mb-10">
-        <h1 class="text-2xl font-black leading-7 text-center text-gray-100 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:leading-10">
+        <h1 class="text-2xl font-black leading-7 text-center text-gray-100 animate__animated animate__bounce sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:leading-10">
           Get latest information <br />
           about our World
         </h1>
@@ -13,7 +13,7 @@
       </div>
     </div>
     <div id="titles" class="flex items-center justify-center mt-6 bg-white ">
-      <div class="flex flex-col px-16 mt-6 md:grid md:grid-cols-6 md:gap-2">
+      <div class="flex flex-col px-16 mt-6 md:grid md:grid-cols-6 md:gap-2 animate__animated animate__bounceInUp">
         <div class="flex flex-col gap-1">
           <a href="" class="bg-purple-500">
             <img src="../../public/population.jpg" height="360" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />

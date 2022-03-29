@@ -1,5 +1,5 @@
 <template lang="">
-        <card class="border-gray-300 border-2 rounded-xl w-[30rem] py-7 px-5">
+  <card class="border-gray-300 border-2 rounded-xl w-[30rem] py-7 px-5 animate__animated animate__fadeInLeft">
     <div class="grid grid-cols-6 gap-3">
       <div class="col-span-2">
         <img :src=src />
