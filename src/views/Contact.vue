@@ -1,6 +1,6 @@
 <template lang="">
   <div class="flex flex-col">
-    <div class="mt-6">
+    <div>
       <ContactUs />
     </div>
     <!-- <h1 class="py-6 text-4xl text-center">Our office location</h1>

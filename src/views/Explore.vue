@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="mt-12 lg:mt-6">
+  <div class="mt-24 lg:mt-16">
     <h1 class="text-3xl italic text-center">Get number of cases by country</h1>
     <main v-if="!loading" class="w-screen mt-6 border-gray-400 border-1">
     <CountryDetails :text="title" :dataDate="dataDate" />

@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="mt-12 lg:mt-6">
+  <div class="mt-24 lg:mt-16">
 
   <h1 class="pt-6 my-3 text-4xl text-center">About Us</h1>
   <div class="flex flex-col items-center justify-center w-3/4 mx-auto">
