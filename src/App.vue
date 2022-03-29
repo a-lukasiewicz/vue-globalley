@@ -3,7 +3,7 @@
     <div id="mainContainer" class="flex flex-col w-full min-h-screen dark:bg-gray-700 sm:h-screen">
       <div class="flex-auto">
         <Header />
-        <router-view />
+        <router-view class="mt-32 lg:mt-14" />
       </div>
       <Footer class="flex-shrink-0 mt-32" />
       <!-- <div class="flex justify-center">

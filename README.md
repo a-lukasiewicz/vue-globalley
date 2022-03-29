@@ -1,4 +1,4 @@
-# vue-covid-app
+# Globally
 
 ## Project setup
 ```
