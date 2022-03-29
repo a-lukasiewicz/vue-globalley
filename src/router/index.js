@@ -1,6 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Details from "../views/Details.vue";
+import Explore from "../views/Explore.vue";
+import Random from "../views/Random.vue";
+import AboutUs from "../views/AboutUs.vue";
+import Contact from "../views/Contact.vue";
 
 const routes = [
   {
@@ -11,27 +15,27 @@ const routes = [
   {
     path: "/details",
     name: "Details",
-    component: import(/* webpackChunkName: "details" */ "../views/Details.vue"),
+    component: Details,
   },
   {
     path: "/explore",
     name: "Explore",
-    component: import(/* webpackChunkName: "Explore" */ "../views/Explore.vue"),
+    component: Explore,
   },
   {
     path: "/random",
     name: "Random",
-    component: import(/* webpackChunkName: "Random" */ "../views/Random.vue"),
+    component: Random,
   },
   {
     path: "/aboutUs",
     name: "AboutUs",
-    component: import(/* webpackChunkName: "AboutUs" */ "../views/AboutUs.vue"),
+    component: AboutUs,
   },
   {
     path: "/contact",
     name: "Contact",
-    component: import(/* webpackChunkName: "Contact" */ "../views/Contact.vue"),
+    component: Contact,
   },
 ];
 
