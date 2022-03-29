@@ -19,37 +19,37 @@
           <a href="" class="bg-purple-500">
             <img src="https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
           </a>
-          <a href="#" class="font-semibold text-center hover:text-gray-200 text-purple-500"> POPULATION </a>
+          <a href="#" class="font-semibold text-center text-purple-500 hover:text-gray-200"> POPULATION </a>
         </div>
         <div class="flex flex-col gap-1">
           <a href="" class="bg-purple-500">
             <img src="https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
           </a>
-          <a href="#" class="font-semibold text-center hover:text-gray-500 text-purple-500"> COVID-19 </a>
+          <a href="#" class="font-semibold text-center text-purple-500 hover:text-gray-500"> COVID-19 </a>
         </div>
         <div class="flex flex-col gap-1">
           <a href="" class="bg-purple-500">
             <img src="https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
           </a>
-          <a href="#" class="font-semibold text-center hover:text-gray-500 text-purple-500"> UKRAINE WAR </a>
+          <a href="#" class="font-semibold text-center text-purple-500 hover:text-gray-500"> UKRAINE WAR </a>
         </div>
         <div class="flex flex-col gap-1">
           <a href="" class="bg-purple-500">
             <img src="https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
           </a>
-          <a href="#" class="font-semibold text-center hover:text-gray-500 text-purple-500"> USA NEWS </a>
+          <a href="#" class="font-semibold text-center text-purple-500 hover:text-gray-500"> USA NEWS </a>
         </div>
         <div class="flex flex-col gap-1">
           <a href="" class="bg-purple-500">
             <img src="https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
           </a>
-          <a href="#" class="font-semibold text-center hover:text-gray-500 text-purple-500"> GLOBAL INFORMATION </a>
+          <a href="#" class="font-semibold text-center text-purple-500 hover:text-gray-500"> GLOBAL INFORMATION </a>
         </div>
         <div class="flex flex-col gap-1">
           <a href="" class="bg-purple-500">
             <img src="https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
           </a>
-          <a href="#" class="font-semibold text-center hover:text-gray-500 text-purple-500">AND MORE</a>
+          <a href="#" class="font-semibold text-center text-purple-500 hover:text-gray-500">AND MORE</a>
         </div>
       </div>
     </div>
