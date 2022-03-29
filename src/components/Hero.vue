@@ -13,41 +13,41 @@
         <button class="px-4 py-2 ml-4 text-sm text-indigo-700 transition duration-150 ease-in-out bg-transparent border border-indigo-700 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 hover:border-indigo-600 lg:text-xl lg:font-bold hover:text-indigo-600 sm:px-10 sm:py-4">Live Demo</button>
       </div>
     </div>
-    <div class="flex items-center justify-center py-4 bg-white">
-      <div class="flex flex-col px-16 md:grid md:grid-cols-6 md:gap-2">
+    <div id="titles" class="flex items-center justify-center mt-6 bg-white ">
+      <div class="flex flex-col px-16 mt-6 md:grid md:grid-cols-6 md:gap-2">
         <div class="flex flex-col gap-1">
           <a href="" class="bg-purple-500">
-            <img src="https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
+            <img src="../../public/population.jpg" height="360" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
           </a>
           <a href="#" class="font-semibold text-center text-purple-500 hover:text-gray-200"> POPULATION </a>
         </div>
         <div class="flex flex-col gap-1">
           <a href="" class="bg-purple-500">
-            <img src="https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
+            <img src="../../public/covid.png" height="360" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
           </a>
           <a href="#" class="font-semibold text-center text-purple-500 hover:text-gray-500"> COVID-19 </a>
         </div>
         <div class="flex flex-col gap-1">
           <a href="" class="bg-purple-500">
-            <img src="https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
+            <img src="../../public/ukraine.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
           </a>
           <a href="#" class="font-semibold text-center text-purple-500 hover:text-gray-500"> UKRAINE WAR </a>
         </div>
         <div class="flex flex-col gap-1">
           <a href="" class="bg-purple-500">
-            <img src="https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
+            <img src="../../public/usa.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
           </a>
           <a href="#" class="font-semibold text-center text-purple-500 hover:text-gray-500"> USA NEWS </a>
         </div>
         <div class="flex flex-col gap-1">
           <a href="" class="bg-purple-500">
-            <img src="https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
+            <img src="../../public/earth.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
           </a>
           <a href="#" class="font-semibold text-center text-purple-500 hover:text-gray-500"> GLOBAL INFORMATION </a>
         </div>
         <div class="flex flex-col gap-1">
           <a href="" class="bg-purple-500">
-            <img src="https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
+            <img src="../../public/gray.jpg" class="duration-100 hover:translate-x-1 hover:-translate-y-1 delay-50" />
           </a>
           <a href="#" class="font-semibold text-center text-purple-500 hover:text-gray-500">AND MORE</a>
         </div>
