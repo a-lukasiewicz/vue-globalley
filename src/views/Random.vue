@@ -1,11 +1,17 @@
 <template lang="">
-  <div>
-    <h1>Random Page</h1>
+  <div class="">
+    <h1 class="py-8 text-4xl text-center">Random News</h1>
     <div class="flex flex-col items-center justify-center">
-      <RandomNews class="my-3" />
-      <RandomNews class="my-3" />
-      <RandomNews class="my-3" />
-      <RandomNews class="my-3" />
+      <RandomNews />
+      <RandomNews />
+      <RandomNews />
+      <RandomNews />
+      <RandomNews />
+      <RandomNews />
+      <RandomNews />
+      <RandomNews />
+      <RandomNews />
+      <RandomNews />
     </div>
   </div>
 </template>
