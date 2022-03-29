@@ -4,15 +4,11 @@
         <div class="w-full px-8 rounded">
             <h2 class="text-3xl font-bold text-center ">Contact Us</h2>
             <form class="px-6">
-                    <div class="flex flex-col w-full md:w-1/2">
-                        <label class="font-semibold">Name</label>
-                        <input type="text" class="p-3 text-gray-900 bg-gray-100 border border-gray-200 rounded focus:outline-none focus:border-blue-700" />
+                    <div class="flex w-full mt-6">
+                        <input type="text" placeholder="Name" class="flex items-center justify-center w-full p-3 mr-3 text-gray-900 bg-gray-100 border border-gray-200 rounded focus:outline-none focus:border-blue-700" />
+                        <input type="email" placeholder="Email" class="w-full p-3 ml-3 text-gray-900 bg-gray-100 border border-gray-200 rounded focus:outline-none focus:border-blue-700"/>
                     </div>
-                <div class="flex flex-col w-full mt-4 md:w-1/2">
-                        <label class="font-semibold">Phone</label>
-                        <input type="email" class="p-3 text-gray-900 bg-gray-100 border border-gray-200 rounded focus:outline-none focus:border-blue-700"/>
-                    </div>
-                <div class="items-center mt-8 md:flex">
+                <div class="items-center mt-6 md:flex">
                     <div class="flex flex-col w-full">
                         <label class="font-semibold">Subject</label>
                         <input type="text" class="p-3 text-gray-900 bg-gray-100 border border-gray-200 rounded focus:outline-none focus:border-blue-700"/>

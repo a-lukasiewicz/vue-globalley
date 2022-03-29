@@ -3,7 +3,7 @@
     <div class="container flex items-center justify-between px-6 py-3 mx-auto md:py-0">
       <div aria-label="Home. logo" role="img">
         <router-link to="/">
-          <h1 class="text-4xl"><span class="text-indigo-700">GLOABAL</span>LEY</h1>
+          <h1 class="text-4xl font-bold"><span class="text-indigo-700">GLOABAL</span>LEY</h1>
         </router-link>
       </div>
       <div>
@@ -41,7 +41,7 @@
           </ul>
         </div>
       </div>
-      <button class="hidden px-4 py-1 text-sm text-indigo-700 transition duration-150 ease-in-out bg-transparent border border-indigo-700 rounded focus:outline-none lg:text-lg lg:font-bold focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 md:block hover:bg-gray-200 sm:px-8 sm:py-3">Sign In</button>
+      <button class="hidden px-4 text-sm text-indigo-700 transition duration-150 ease-in-out bg-transparent border border-indigo-700 rounded focus:outline-none lg:text-lg lg:font-bold focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 md:block hover:bg-gray-200 sm:px-8 sm:py-3">Sign In</button>
     </div>
   </nav>
 </template>

@@ -1,6 +1,7 @@
 <template lang="">
   <div class="mt-6">
-    <main v-if="!loading" class="w-screen">
+    <h1 class="text-3xl italic text-center">Get number of cases by country</h1>
+    <main v-if="!loading" class="w-screen mt-6 border-gray-400 border-1">
     <CountryDetails :text="title" :dataDate="dataDate" />
     <CasesElement :stats="stats" />
     <SearchCountry :countries="countries" @get-country="getCountryData" @clear="clearCountryData" />
